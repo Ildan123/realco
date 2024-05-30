@@ -383,7 +383,6 @@ main section.poxo div.pol span.gui {
     font-size: 16px;
     cursor: pointer;
 }
-
 main section.poxo div.pol span.gui:hover {
     transition: all 0.7s;
     color: orange;
@@ -401,4 +400,295 @@ main section.poxo div.pol span.fui {
 main section.poxo div.pol span.fui:hover {
     transition: all 0.7s;
     color: orange;
+}
+.property {
+    background-color: #f5f5f2;
+    padding: 128px 80px 160px;
+    position: relative;
+}
+.property h2 {
+    margin-bottom: 80px;
+}
+  
+.property .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.property .container div.column{
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 14px;
+    background-color:#E7E8E3;
+    padding: 7px 7px;
+    border-radius: 32px;
+}
+.property .container h2.odin{
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 48px;
+    padding-top: 20px;
+    color: #2A2C1F;
+}
+.property::before {
+    background-size: 135px;
+    position: absolute;
+    width: 135px;
+    height: 135px;
+    top: 0;
+    right: 0;
+    transform: rotate(90deg);
+}
+  
+.property::after {
+    background-size: 135px;
+    position: absolute;
+    width: 135px;
+    height: 135px;
+    bottom: 0;
+    left: 0;
+    transform: rotate(-90deg);
+}
+  
+.property-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 49px;
+}
+  
+.property-item {
+    max-width: 405px;
+    width: calc(100% / 3 - 1.5% * 2 / 3);
+    margin-bottom: 30px;
+}
+  
+.property-desc {
+    background-color: #ffffff;
+    padding: 24px;
+    border: 1px solid #e7e8e3;
+    box-shadow: 0 2px 4px 0 #e7e8e3;
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+}
+.property div.property-items h3{
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 33.6px;
+    text-align: left;
+    color: #2A2C1F;
+
+}
+.property div.property-address{
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color:#65665C;
+}
+.property ul.property-features{
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #65665C;   
+}
+.property div.explore-and-contact .explore-link{
+    text-decoration: none;
+    border: 1px solid #E7E8E3;
+    padding: 13px 25px;
+    border-radius: 6px;
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 16px;
+    cursor: pointer;
+    color: black;
+}
+.property div.explore-and-contact .explore-link:hover{
+    transition: all 0.7s;
+    color: orange;
+    border: 1px solid orange;
+}
+.property div.explore-and-contact .contact-link{
+    text-decoration: none;
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 16px;
+    padding-left: 24px;
+    cursor: pointer;
+    color: black;
+}
+.property div.explore-and-contact .contact-link:hover{
+    transition: all 0.7s;
+    color: orange
+}
+.property-img {
+    width: 100%;
+    height: 268px;
+}
+  
+.property-img img {
+    width: 100%;
+    height: 100%;
+}
+  
+.property-desc h3 {
+    margin-bottom: 4px;
+}
+  
+.property-desc p {
+    margin-bottom: 16px;
+    font-weight: bold;
+    color: #2a2c1f;
+}
+  
+.property-address {
+    margin-bottom: 16px;
+}
+  
+.property-address.property-features li {
+    color: #65665c;
+}
+  
+.property-address::before {
+    width: 16px;
+    height: 24px;
+    vertical-align: middle;
+    margin-right: 15px;
+}
+  
+.property-features li {
+    display: inline-block;
+    margin-right: 24px;
+}
+  
+.property-features li:first-of-type::before {
+    width: 16px;
+    height: 24px;
+    vertical-align: middle;
+    margin-right: 15px;
+}
+  
+.property-features li:nth-of-type(2)::before {
+    width: 16px;
+    height: 24px;
+    vertical-align: middle;
+    margin-right: 15px;
+}
+  
+.property-features li:last-of-type::before {
+    width: 16px;
+    height: 24px;
+    vertical-align: middle;
+    margin-right: 15px;
+}
+  
+
+.locations {
+    background-color: #f5f5f2;
+}
+.locations .container h2{
+    font-family: Roboto;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 57.6px;
+    text-align: center;
+    color:#2A2C1F;
+}
+.locations .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+  
+  
+.locations p {
+    margin-bottom: 80px;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    text-align: center;
+    color:#65665C;
+}
+  
+.locations-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-self: flex-start;
+    margin-bottom: 80px;
+}
+  
+  .locations-item {
+    background-color: #ffffff;
+    border-radius: 16px;
+    padding: 33px;
+    border: 1px solid #e7e8e3;
+    box-shadow: 0 2px 4px 0 #e7e8e3;
+    width: calc(100% / 3 - 16px * 2 / 3);
+    margin-bottom: 16px;
+    margin-right: 16px;
+  }
+  
+.locations-item:nth-child(3n) {
+    margin-right: 0;
+}
+  
+.locations-item h3 {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+    text-align: left;
+    color: #2A2C1F;
+}
+.locations-item .btn-properties-contact-link{
+    text-decoration: none;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    color: #2A2C1F;
+}
+.locations .explore-and-contact {
+    margin-bottom: 128px;
+
+}
+.locations .explore-and-contact .explore-link{
+    text-decoration: none;
+    border: 1px solid #E7E8E3;
+    padding: 13px 25px;
+    border-radius: 6px;
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 16px;
+    cursor: pointer;
+    color: black;
+}
+.locations .explore-and-contact .explore-link:hover{
+    transition: all 0.7s;
+    color: orange;
+    border: 1px solid orange;
+}
+.locations .explore-and-contact .contact-link{
+    text-decoration: none;
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 16px;
+    padding-left: 24px;
+    cursor: pointer;
+    color: black;
+}
+.locations .explore-and-contact .contact-link:hover{
+    transition: all 0.7s;
+    color: orange
 }
